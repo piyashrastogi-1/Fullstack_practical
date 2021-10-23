@@ -1,2 +1,2 @@
 # Fullstack_practical
-This is  for Fullstack  practicals
+This repository contains Fullstack WebDevelopment practicals.
