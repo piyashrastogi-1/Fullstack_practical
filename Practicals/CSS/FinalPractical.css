@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;box-sizing: border-box;
+}
+
+
+.container{
+    background-color:#ffffff;
+    
+    height: 100vh;
+}
+.header
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: black; */
+    height: 10vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navigationbar
+{
+    display: flex;
+    /* justify-content: flex-end; */
+    justify-content: center;
+    background-color:white;
+    width: 100vw;
+}
+.inside{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1{
+    margin-right: 600px;
+    color: #5777ba;
+
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: whitesmoke;
+    
+}
+li{
+
+    display: flex;
+    list-style: none;
+    height: auto;
+}
+ul li a{
+    text-decoration: none;
+    padding: 1.5rem 1rem;
+    color: white;
+}
+
+ul li button{
+    background-color: #5777ba;
+    border-radius: 20px;
+    line-height: 40px;
+    font-size: 15px;
+    padding: 3px 35px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    /* border-radius: none; */
+}
+
+.content{
+    /* width: 100vw;
+    height: 100vh;
+    display: flex;
+    /* flex-direction: row; */
+    
+    /* justify-content: center;
+    align-items: center;
+    flex-direction: row; */ 
+    display: flex;
+    
+}
+.left
+{
+    width: 50%;
+    height: 90vh;
+    /* background-color: orange; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    
+}
+.right{
+    
+    width: 50%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:royalblue  ;
+    
+}
+.lh1{
+    margin: 20px 20px;
+    font-size: 70px;
+}
+.lp
+{
+    margin: 20px 20px;
+    
+}
+.cbutton
+{
+    display: flex;
+    margin-top: 30px;
+    
+}
+.googleplay{
+    background-color: #5777ba;
+    /* border-radius: 20px; */
+    line-height: 40px;
+    font-size: 15px;
+    padding: 3px 50px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.appstore
+{
+    background-color: #5777ba;
+    /* border-radius: 20px; */
+    line-height: 40px;
+    font-size: 15px;
+    padding: 3px 50px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+img{
+    position: absolute;
+    
+    margin-left:850px;
+
+    
+}
