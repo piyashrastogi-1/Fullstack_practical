@@ -5,60 +5,62 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <script src="https://kit.fontawesome.com/4748b570fc.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./CSS/Practical-15.css">
+    <script src="./JS/Practical-15.js" defer></script>
     <title>Practical-15</title>
 </head>
 
 <body>
-    
-    <div class="card">
-        <div>
-            <h1>Create Account</h1>
+    <div class="main">
+        <div class="heading">
+            <p>Create Account</p>
         </div>
-        <form action="">
-            <div>
-                <label for="username">Username</label>
-                <br>
-                <input type="text" placeholder="Enter username" id="username">
-                <i class="fa fa-exclamation-circle"></i>
-                <i class="fa fa-check"></i>
-            </div>
-            <br>
-        
-            <div>
-                <label for="email">Email</label>
-                <br>
-                <input type="text" placeholder="Enter Email" id="email">
-                <i class="fa fa-exclamation-circle"></i>
-                <i class="fa fa-check"></i>
-            </div>
-            <br>
-        
-            <div>
-                <label for="p1">Password</label>
-                <br>
-                <input type="text" placeholder="Enter password" id="p1">
-                <i class="fa fa-exclamation-circle"></i>
-                <i class="fa fa-check"></i>
-            </div>
-            <br>
-           
-            <div>
-                <label for="p2">Password Again</label>
-                <br>
-                <input type="text" placeholder="Enter password again" id="p2">
-                <i class="fa fa-exclamation-circle"></i>
-                <i class="fa fa-check"></i>
-            </div>
-            <br>
-            <div class="submit">
-                <a href="#">Submit</a>
-            </div>
-
-        </form>
+        <div class="form">
+            <form action="" class="myform">
+                <div class="label">
+                    <label for="namee">Username</label>
+                    <div class="input">
+                        <input type="text" name='namee' id='namee'>
+                        <i class="fas fa-exclamation-circle"></i>
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <p class="error namee"> </p>
+                </div>
+                <div class="label">
+                    <label for="email">Email</label>
+                    <div class="input">
+                        <input type="email" name='email' id="email">
+                        <i class="fas fa-exclamation-circle"></i>
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <p class="error email"> </p>
+                </div>
+                <div class="label">
+                    <label for="password">Password</label>
+                    <div class="input">
+                        <input type="password" name="password" id="password">
+                        <i class="fas fa-exclamation-circle"></i>
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <p class="error password"> </p>
+                </div>
+                <div class="label">
+                    <label for="cpassword">Confirm Password</label>
+                    <div class="input">
+                        <input type="password" name="cpassword" id="cpassword">
+                        <i class="fas fa-exclamation-circle"></i>
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <p class="error cpassword"> </p>
+                </div>
+                <div class="submit">
+                    <input type="submit" value="Submit">
+                    <i></i>
+                </div>
+            </form>
+        </div>
     </div>
-
 </body>
 
 </html>
